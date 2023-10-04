@@ -1,6 +1,6 @@
 import { render, fireEvent } from '@testing-library/react';
 import Form from './Form';
-import Field from './Field';
+import Field from '../Field/Field';
 
 // Define a mock onFormSubmit function
 const mockOnFormSubmit = jest.fn();

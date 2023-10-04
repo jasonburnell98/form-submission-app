@@ -1,9 +1,9 @@
 /* Form with onSubmit method */ 
 import React, { useState } from 'react';
 import { Button, Container, Grid, Typography } from '@mui/material';
-import Field from './Field';
+import Field from '../Field/Field';
 import formStructure from './FormStructure';
-import { FieldData } from './FieldData';
+import { FieldData } from '../Field/FieldData';
 
 
 interface FormProps {

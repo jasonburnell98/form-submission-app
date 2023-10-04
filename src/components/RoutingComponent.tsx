@@ -1,9 +1,9 @@
 /* Needed this component to handle the routing as a child of App.tsx */
 import { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, useNavigate } from 'react-router-dom';
-import Form from './Form';
+import Form from './Form/Form';
 import FormSubmitPage from './FormSubmitPage';
-import { FieldData } from './FieldData';
+import { FieldData } from './Field/FieldData';
 
 const RoutingComponent = () => {
     const [formData, setFormData] = useState({});

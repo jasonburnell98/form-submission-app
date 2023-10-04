@@ -1,6 +1,6 @@
 /*mock reducer for testing purposes */
 import { configureStore } from '@reduxjs/toolkit';
-import formReducer from '../reducers/formReducer';
+import formReducer from '../../reducers/formReducer';
 
 const mockStore = configureStore({
   reducer: {

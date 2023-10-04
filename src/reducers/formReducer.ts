@@ -22,4 +22,3 @@ const formSlice = createSlice({
 export const { updateFormField } = formSlice.actions;
 
 export default formSlice.reducer;
-``
