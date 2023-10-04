@@ -1,5 +1,14 @@
 # Here we have a basic application form
-To-do work would be to 
+
+The test project has the following:
+- all fields required and validation will trigger if a field is skipped
+- special validation on phone number and email
+- material ui styling library with accessibility on fields
+- unit tests with 90% test coverage
+- redux state management
+- react-router-dom to transition from form to thank you page
+
+To-do work would be:
 - add an options array for state input
 - autofill address based on zipcode
 - add a text mask for phone number 
