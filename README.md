@@ -1,3 +1,18 @@
+# Here we have a basic application form
+To-do work would be to 
+- add an options array for state input
+- autofill address based on zipcode
+- add a text mask for phone number 
+- limit phone number digits to 10 and don't allow letter input
+
+
+![img1](./image/desktop_form.png)
+![img2](./image/desktop_thankyou.png)
+![img3](./image/tablet_form.png)
+![img4](./image/tablet_form_2.png)
+![img5](./image/mobile_form.png)
+![img6](./image/mobile_form_2.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
