@@ -5,11 +5,11 @@ import { store } from './app/store';
 import App from './App';
 
 xtest('renders learn react link', () => {
-  const { getByText } = render(
+  const { queryByTestId } = render(
     <Provider store={store}>
       <App />
     </Provider>
   );
 
-  expect(getByText('learn')).toBeInTheDocument();
+  expect(queryByTestId('handle-Change-text')).toBeInTheDocument();
 });

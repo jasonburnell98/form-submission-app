@@ -77,6 +77,7 @@ const Field: React.FC<FieldProps> = ({ fieldData, value, onChange }) => {
           style={{ width: '100%' }}
           aria-describedby={`${id}-error`} // Associate error message with input
           data-testid='handle-Change-text' // for test purposes only
+          placeholder='Add text'
         />
         
       )}
